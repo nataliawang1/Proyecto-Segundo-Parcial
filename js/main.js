@@ -2,10 +2,12 @@ import { convertir_de_JSON_a_Objeto } from "./ayudad.js";
 import { GestorVideojuegos } from "./gestorVideojuegos.js";
 import { renderLista, mostrarMensaje } from "./controlador_vista.js";
 
+// Elementos del DOM
+const contenedor = document.querySelector('#contenedor_elementos_juegos'); // Contenedor donde se muestran los videojuegos
+const formulario = document.querySelector('#formulario_agregar'); // Formulario para agregar videojuegos
+const botonAgregar = document.querySelector('#boton_agregar'); // Botón de agregar
 
-const contenedor = document.querySelector('#contenedor_elementos_juegos'); 
-const botonAgregar = document.querySelector('#boton_agregar'); 
-
+// Instancia del gestor de videojuegos
 const gestor = new GestorVideojuegos();
 
 /* Función: cargarDatos
@@ -123,5 +125,5 @@ async function init() {
   });
 }
 
-// Inicializa
+// Inicializa la aplicación
 init();

@@ -2,43 +2,43 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilo.css">
-  <title>CRUD de Videojuegos</title>
+  <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+  <link rel="stylesheet" href="css/estilo.css"> <!-- Enlace al archivo CSS para estilos -->
+  <title>CRUD de Videojuegos</title> <!-- Título de la página -->
 </head>
 
 <body>
-  <h1>Lista de juegos por jugar</h1>
+  <h1>Lista de juegos por jugar</h1> <!-- Título principal de la página -->
 
-  <!-- Formulario para agregar videojuegos -->
+  <!-- 🟢 Formulario para agregar videojuegos -->
   <div class="contenedor-formulario-agregar">
     <form id="formulario_agregar">
       <!-- Mensajes de estado o error -->
-      <div id="mensaje_error"></div>
-      <div id="mensaje_estado" hidden></div>
+      <div id="mensaje_error"></div> <!-- Aquí se mostrarán errores del formulario -->
+      <div id="mensaje_estado" hidden></div> <!-- Aquí se mostrarán mensajes de éxito, inicialmente oculto -->
 
       <!-- Campos del formulario -->
       <div>
-        <input type="text" placeholder="Título" name="titulo" required>
+        <input type="text" placeholder="Título" name="titulo" required> <!-- Campo para el título del videojuego -->
       </div>
       <div>
-        <input type="text" placeholder="Descripción" name="descripcion" required>
+        <input type="text" placeholder="Descripción" name="descripcion" required> <!-- Campo para la descripción -->
       </div>
       <div>
-        <input type="text" placeholder="Plataforma" name="plataforma" required>
+        <input type="text" placeholder="Plataforma" name="plataforma" required> <!-- Campo para la plataforma -->
       </div>
 
       <!-- Botón dentro del formulario -->
-      <button type="submit" id="boton_agregar">Agregar</button>
+      <button type="submit" id="boton_agregar">Agregar</button> <!-- Botón para enviar el formulario -->
     </form>
   </div>
 
-  <!--  Contenedor donde se mostrarán los videojuegos -->
-  <div class="contenedor-elementos-juegos" id="contenedor_elementos_juegos"></div>
+  <!-- 🟣 Contenedor donde se mostrarán los videojuegos -->
+  <div class="contenedor-elementos-juegos" id="contenedor_elementos_juegos"></div> <!-- Aquí se renderizan las tarjetas de videojuegos -->
 
   <!-- JS principal -->
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/main.js"></script> <!-- Se importa el módulo principal que maneja la lógica del CRUD -->
 </body>
 
 </html>

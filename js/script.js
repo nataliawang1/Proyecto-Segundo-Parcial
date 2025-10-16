@@ -1,4 +1,4 @@
-
+// URL de la API de ejemplo
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 // Datos que se enviarán en la petición POST
@@ -16,16 +16,16 @@ async function peticionFetchGet(url) {
         if(!respuesta.ok){ // Verifica si hubo algún error HTTP
             throw new Error('Error HTTP: ' + respuesta.status);
         }
-        const datos = await respuesta.json(); 
-        return datos; 
+        const datos = await respuesta.json(); // Convierte la respuesta a JSON
+        return datos; // Retorna los datos obtenidos
     }
     catch(error) {
-        return error; 
+        return error; // Retorna el error si ocurre
     }
 }
 
 /* Función: peticionFetchPost
-   Descripción: Realiza una petición POST enviando datos a la URL y retorna JSON */
+   Descripción: Realiza una petición POST enviando datos a la URL y retorna la respuesta en JSON */
 async function peticionFetchPost(url, datos_a_enviar){
     try{
         const respuesta = await fetch(url, {
@@ -48,16 +48,16 @@ async function peticionFetchPost(url, datos_a_enviar){
     }
 }
 
-// Uso de la función GET 
+// Uso de la función GET con promesas
 peticionFetchGet(url)
 .then(respuesta => {
-    // Itera cada elemento y lo muestra en consola
+    // Itera sobre cada elemento y lo muestra en consola
     respuesta.forEach(element => {
         console.log(element)
     });
 })
 .catch(error => {
-    console.log(error); 
+    console.log(error); // Muestra error si ocurre
 });
 
 // Uso de la función POST con promesas
@@ -66,5 +66,5 @@ peticionFetchPost(url, datos_enviar)
     console.log(datos); // Muestra la respuesta del POST en consola
 })
 .catch(error => {
-    console.log(error);
+    console.log(error); // Muestra error si ocurre
 });
