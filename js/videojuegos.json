@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "descripcion": "Explora un vasto mundo abierto y enfrenta a Ganon en Hyrule.",
+    "plataforma": "Nintendo Switch"
+  },
+  {
+    "id": 2,
+    "titulo": "God of War",
+    "descripcion": "Kratos y Atreus viajan por la mitología nórdica en una historia intensa.",
+    "plataforma": "PlayStation 4"
+  },
+  {
+    "id": 3,
+    "titulo": "Minecraft",
+    "descripcion": "Construye, explora y sobrevive en un mundo generado por bloques.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 4,
+    "titulo": "Red Dead Redemption 2",
+    "descripcion": "Vive el viejo oeste en una historia de forajidos y libertad.",
+    "plataforma": "PS4/Xbox One/PC"
+  },
+  {
+    "id": 5,
+    "titulo": "Super Mario Odyssey",
+    "descripcion": "Acompaña a Mario por diversos reinos con la ayuda de su gorra mágica.",
+    "plataforma": "Nintendo Switch"
+  },
+  {
+    "id": 6,
+    "titulo": "The Witcher 3: Wild Hunt",
+    "descripcion": "Sigue a Geralt de Rivia en su misión para encontrar a Ciri y enfrentar a la Cacería Salvaje.",
+    "plataforma": "PS4/Xbox One/PC/Switch"
+  },
+  {
+    "id": 7,
+    "titulo": "Elden Ring",
+    "descripcion": "Explora las Tierras Intermedias en una oscura aventura de fantasía creada por FromSoftware.",
+    "plataforma": "PS4/PS5/Xbox/PC"
+  },
+  {
+    "id": 8,
+    "titulo": "Hollow Knight",
+    "descripcion": "Explora el reino de Hallownest en este metroidvania lleno de secretos y enemigos desafiantes.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 9,
+    "titulo": "Grand Theft Auto V",
+    "descripcion": "Sigue las historias entrelazadas de tres criminales en Los Santos.",
+    "plataforma": "PS4/PS5/Xbox/PC"
+  },
+  {
+    "id": 10,
+    "titulo": "Celeste",
+    "descripcion": "Ayuda a Madeline a escalar una montaña enfrentando sus propios miedos.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 11,
+    "titulo": "Stardew Valley",
+    "descripcion": "Crea y gestiona tu granja mientras te integras en la comunidad local.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 12,
+    "titulo": "Dark Souls III",
+    "descripcion": "Una aventura desafiante en un mundo oscuro y melancólico.",
+    "plataforma": "PS4/Xbox One/PC"
+  },
+  {
+    "id": 13,
+    "titulo": "Resident Evil 4",
+    "descripcion": "Leon S. Kennedy intenta rescatar a la hija del presidente de una secta misteriosa.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 14,
+    "titulo": "Fortnite",
+    "descripcion": "Juego de batalla real con construcción, acción y eventos en vivo.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 15,
+    "titulo": "Overwatch",
+    "descripcion": "Shooter por equipos con héroes únicos y habilidades especiales.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 16,
+    "titulo": "Among Us",
+    "descripcion": "Descubre al impostor en esta experiencia multijugador de engaño.",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "id": 17,
+    "titulo": "Animal Crossing: New Horizons",
+    "descripcion": "Crea tu isla perfecta, haz amigos y decora en este relajante simulador.",
+    "plataforma": "Nintendo Switch"
+  },
+  {
+    "id": 18,
+    "titulo": "Cyberpunk 2077",
+    "descripcion": "Sumérgete en Night City como V, un mercenario mejorado cibernéticamente.",
+    "plataforma": "PS4/PS5/Xbox/PC"
+  },
+  {
+    "id": 19,
+    "titulo": "Assassin’s Creed Valhalla",
+    "descripcion": "Conquista Inglaterra como un vikingo en la saga de Eivor.",
+    "plataforma": "PS4/PS5/Xbox/PC"
+  },
+  {
+    "id": 20,
+    "titulo": "Call of Duty: Modern Warfare",
+    "descripcion": "Acción militar intensa en una guerra moderna con campaña y multijugador.",
+    "plataforma": "Multiplataforma"
+  }
+]

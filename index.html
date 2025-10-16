@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>CRUD de Videojuegos</title>
+</head>
+
+<body>
+  <h1>Lista de juegos por jugar</h1>
+
+  <!-- Formulario para agregar videojuegos -->
+  <div class="contenedor-formulario-agregar">
+    <form id="formulario_agregar">
+      <!-- Mensajes de estado o error -->
+      <div id="mensaje_error"></div>
+      <div id="mensaje_estado" hidden></div>
+
+      <!-- Campos del formulario -->
+      <div>
+        <input type="text" placeholder="Título" name="titulo" required>
+      </div>
+      <div>
+        <input type="text" placeholder="Descripción" name="descripcion" required>
+      </div>
+      <div>
+        <input type="text" placeholder="Plataforma" name="plataforma" required>
+      </div>
+
+      <!-- Botón dentro del formulario -->
+      <button type="submit" id="boton_agregar">Agregar</button>
+    </form>
+  </div>
+
+  <!--  Contenedor donde se mostrarán los videojuegos -->
+  <div class="contenedor-elementos-juegos" id="contenedor_elementos_juegos"></div>
+
+  <!-- JS principal -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
